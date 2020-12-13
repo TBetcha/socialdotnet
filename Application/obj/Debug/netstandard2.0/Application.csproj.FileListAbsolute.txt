@@ -1,0 +1,13 @@
+/Users/troyboettger/Code/dotnet/social/Application/bin/Debug/netstandard2.0/Application.deps.json
+/Users/troyboettger/Code/dotnet/social/Application/bin/Debug/netstandard2.0/Application.dll
+/Users/troyboettger/Code/dotnet/social/Application/bin/Debug/netstandard2.0/Application.pdb
+/Users/troyboettger/Code/dotnet/social/Application/bin/Debug/netstandard2.0/Domain.dll
+/Users/troyboettger/Code/dotnet/social/Application/bin/Debug/netstandard2.0/Persistence.dll
+/Users/troyboettger/Code/dotnet/social/Application/bin/Debug/netstandard2.0/Domain.pdb
+/Users/troyboettger/Code/dotnet/social/Application/bin/Debug/netstandard2.0/Persistence.pdb
+/Users/troyboettger/Code/dotnet/social/Application/obj/Debug/netstandard2.0/Application.csprojAssemblyReference.cache
+/Users/troyboettger/Code/dotnet/social/Application/obj/Debug/netstandard2.0/Application.AssemblyInfoInputs.cache
+/Users/troyboettger/Code/dotnet/social/Application/obj/Debug/netstandard2.0/Application.AssemblyInfo.cs
+/Users/troyboettger/Code/dotnet/social/Application/obj/Debug/netstandard2.0/Application.csproj.CopyComplete
+/Users/troyboettger/Code/dotnet/social/Application/obj/Debug/netstandard2.0/Application.dll
+/Users/troyboettger/Code/dotnet/social/Application/obj/Debug/netstandard2.0/Application.pdb

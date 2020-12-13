@@ -1,0 +1,8 @@
+/Users/troyboettger/Code/dotnet/social/Domain/bin/Debug/netstandard2.0/Domain.deps.json
+/Users/troyboettger/Code/dotnet/social/Domain/bin/Debug/netstandard2.0/Domain.dll
+/Users/troyboettger/Code/dotnet/social/Domain/bin/Debug/netstandard2.0/Domain.pdb
+/Users/troyboettger/Code/dotnet/social/Domain/obj/Debug/netstandard2.0/Domain.csprojAssemblyReference.cache
+/Users/troyboettger/Code/dotnet/social/Domain/obj/Debug/netstandard2.0/Domain.AssemblyInfoInputs.cache
+/Users/troyboettger/Code/dotnet/social/Domain/obj/Debug/netstandard2.0/Domain.AssemblyInfo.cs
+/Users/troyboettger/Code/dotnet/social/Domain/obj/Debug/netstandard2.0/Domain.dll
+/Users/troyboettger/Code/dotnet/social/Domain/obj/Debug/netstandard2.0/Domain.pdb

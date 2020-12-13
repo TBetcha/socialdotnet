@@ -1,0 +1,11 @@
+/Users/troyboettger/Code/dotnet/social/Persistence/bin/Debug/netstandard2.0/Persistence.deps.json
+/Users/troyboettger/Code/dotnet/social/Persistence/bin/Debug/netstandard2.0/Persistence.dll
+/Users/troyboettger/Code/dotnet/social/Persistence/bin/Debug/netstandard2.0/Persistence.pdb
+/Users/troyboettger/Code/dotnet/social/Persistence/bin/Debug/netstandard2.0/Domain.dll
+/Users/troyboettger/Code/dotnet/social/Persistence/bin/Debug/netstandard2.0/Domain.pdb
+/Users/troyboettger/Code/dotnet/social/Persistence/obj/Debug/netstandard2.0/Persistence.csprojAssemblyReference.cache
+/Users/troyboettger/Code/dotnet/social/Persistence/obj/Debug/netstandard2.0/Persistence.AssemblyInfoInputs.cache
+/Users/troyboettger/Code/dotnet/social/Persistence/obj/Debug/netstandard2.0/Persistence.AssemblyInfo.cs
+/Users/troyboettger/Code/dotnet/social/Persistence/obj/Debug/netstandard2.0/Persistence.csproj.CopyComplete
+/Users/troyboettger/Code/dotnet/social/Persistence/obj/Debug/netstandard2.0/Persistence.dll
+/Users/troyboettger/Code/dotnet/social/Persistence/obj/Debug/netstandard2.0/Persistence.pdb

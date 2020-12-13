@@ -1,0 +1,236 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/troyboettger/Code/dotnet/social/API/API.csproj": {}
+  },
+  "projects": {
+    "/Users/troyboettger/Code/dotnet/social/API/API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/troyboettger/Code/dotnet/social/API/API.csproj",
+        "projectName": "API",
+        "projectPath": "/Users/troyboettger/Code/dotnet/social/API/API.csproj",
+        "packagesPath": "/Users/troyboettger/.nuget/packages/",
+        "outputPath": "/Users/troyboettger/Code/dotnet/social/API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/troyboettger/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/Users/troyboettger/Code/dotnet/social/Application/Application.csproj": {
+                "projectPath": "/Users/troyboettger/Code/dotnet/social/Application/Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/troyboettger/Code/dotnet/social/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/troyboettger/Code/dotnet/social/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Users/troyboettger/Code/dotnet/social/Application/Application.csproj",
+        "packagesPath": "/Users/troyboettger/.nuget/packages/",
+        "outputPath": "/Users/troyboettger/Code/dotnet/social/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/troyboettger/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/troyboettger/Code/dotnet/social/Domain/Domain.csproj": {
+                "projectPath": "/Users/troyboettger/Code/dotnet/social/Domain/Domain.csproj"
+              },
+              "/Users/troyboettger/Code/dotnet/social/Persistence/Persistence.csproj": {
+                "projectPath": "/Users/troyboettger/Code/dotnet/social/Persistence/Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/troyboettger/Code/dotnet/social/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/troyboettger/Code/dotnet/social/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/troyboettger/Code/dotnet/social/Domain/Domain.csproj",
+        "packagesPath": "/Users/troyboettger/.nuget/packages/",
+        "outputPath": "/Users/troyboettger/Code/dotnet/social/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/troyboettger/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/troyboettger/Code/dotnet/social/Persistence/Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/troyboettger/Code/dotnet/social/Persistence/Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "/Users/troyboettger/Code/dotnet/social/Persistence/Persistence.csproj",
+        "packagesPath": "/Users/troyboettger/.nuget/packages/",
+        "outputPath": "/Users/troyboettger/Code/dotnet/social/Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/troyboettger/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/troyboettger/Code/dotnet/social/Domain/Domain.csproj": {
+                "projectPath": "/Users/troyboettger/Code/dotnet/social/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
