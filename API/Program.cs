@@ -12,35 +12,36 @@ using Persistence;
 
 namespace API
 {
-    public class Program
+  public class Program
+  {
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
+      var host = CreateHostBuilder(args).Build();
+      using (var scope = host.Services.CreateScope())
+      {
+        var services = scope.ServiceProvider;
+        try
         {
-            var host = CreateHostBuilder(args).Build();
-            using (var scope = host.Services.CreateScope())
-            {
-                var services = scope.ServiceProvider;
-                try
-                {
-                    var context = services.GetRequiredService<DataContext>();
-                    context.Database.Migrate();
-                }
-                catch(Exception ex)
-                {
-                    var logger = services.GetRequiredService<ILogger>();
-                    logger.LogError(ex.Message, "An error occured during migration");
-                }
-            }
-
-            host.Run();
-
+          var context = services.GetRequiredService<DataContext>();
+          context.Database.Migrate();
+          Seed.SeedData(context);
         }
+        catch (Exception ex)
+        {
+          var logger = services.GetRequiredService<ILogger>();
+          logger.LogError(ex.Message, "An error occured during migration");
+        }
+      }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+      host.Run();
+
     }
+
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+              webBuilder.UseStartup<Startup>();
+            });
+  }
 }
