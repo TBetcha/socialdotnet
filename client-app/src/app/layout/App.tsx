@@ -1,35 +1,30 @@
-import React, {Component} from 'react';
+import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import { Header, Icon, List } from 'semantic-ui-react'
+import { IActivity } from '../models/activity';
+import { NavBar } from '../../features/nav/NavBar';
 
-class App extends Component {
-  state = {
-    values: []
-  }
-  componentDidMount() {
-    axios.get('http://localhost:5000/api/values')
-    .then((response) => {
-      this.setState({
-        values: response.data
-      })
-     })
+const App =() =>  {
+
+  const [activities, setActivities] = useState<IActivity[]>([])
   
-  }
-  render(){
+  useEffect(() => {
+    axios.get<IActivity[]>('http://localhost:5000/api/activities')
+      .then((response) => {
+        setActivities(response.data )
+       })
+  }, [])
+
     return (
       <div className="App">
-        <Header as='h2'>
-          <Icon name='plug' />
-          <Header.Content>Uptime Guarantee</Header.Content>
-        </Header>
+        <NavBar />
         <List>
-          <List.Item>  {this.state.values.map((value: any) => (
-              <li key={value.id}>{value.name}</li>
+          <List.Item>  {activities.map((activity) => (
+              <li key={activity.id}>{activity.title}</li>
             ))}</List.Item>
         </List>
       </div>
     );
-  }
 }
 
 export default App;
