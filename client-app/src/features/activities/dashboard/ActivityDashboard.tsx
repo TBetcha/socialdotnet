@@ -1,6 +1,7 @@
 import React from 'react'
 import { Grid, GridColumn, List } from 'semantic-ui-react'
 import { IActivity } from '../../../app/models/activity'
+import ActivityDetails  from '../details/ActivityDetails'
 import { ActivityList } from './ActivityList'
 
 interface IProps{
@@ -12,12 +13,10 @@ const ActivityDashboard: React.FC<IProps> = ({activities}) => {
       <Grid>
       <Grid.Column width={10}>
       <ActivityList activities={activities} />
-          {/* <List>
-          <List.Item>  {activities.map((activity) => (
-             <li key={activity.id}>{activity.title}</li>
-             ))}</List.Item>
-          </List> */}
-        </Grid.Column>
+      </Grid.Column>
+      <Grid.Column width={6}>
+      <ActivityDetails />
+      </Grid.Column>
 
       </Grid>
   )
